@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  margin: 0;
+  /* padding: 8px; */
+  box-sizing: border-box;
+  font-family: "Roboto", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: rgb(0, 100, 200);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(0, 80, 160);
+}
+
+label {
+  display: block;
+}
+
+input,
+textarea {
+  @apply block w-full bg-transparent font-open text-base [border:0] [outline:0];
+}
+
+textarea::placeholder {
+  font-weight: 600;
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 0.9;
+}
+
+input {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  @apply max-h-[50vh] min-h-[5em] w-full resize-none leading-normal;
+}
+
+input:disabled {
+  color: #ccc;
+}
+
+button {
+  color: #333;
+  background-color: #f4f4f4;
+  outline: none;
+}
+
+button:disabled {
+  color: #999;
+}
+
+button:focus {
+  border-color: #666;
+}
+
+.freeze {
+  overflow: hidden;
+}

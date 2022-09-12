@@ -3,7 +3,7 @@ This project was a test of my skills as a developer a week into learning svelte.
 ### Started: Sunday, November 29, 2020, 8:28 AM
 ### Ended: Wednesday, December 2, 2020, 10:05 AM
 
-### Rewrite Complete: Monday, September 12, 6:58 PM
+### Rewrite Complete: Monday, September 12, 7:05 PM
 
 ### Note
 > While forking this repo, or taking implementation, please make reference to this repo => https://github.com/HanielU/google-keep-sveltejs-firebase	
